@@ -10,8 +10,9 @@ d1 = {
     "salario" : 20000
 }
 print("El diccionario original es {}.".format(d1))
+
 #Convirtiendo el diccionario en una lista
-lista_1 = list (d1)
+lista_1 = list (d1.values())#solo los valores estoy considerando en la lista
 print("Convirtiendo el diccionario a lista: {}.".format(lista_1))
 
 #Agregando dni

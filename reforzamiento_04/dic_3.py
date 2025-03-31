@@ -8,8 +8,9 @@ d1 = {
     "salario" : 20000
 }
 print("El diccionario original es {}.".format(d1))
+
 #Convirtiendo el diccionario en una lista
-lista_1 = list (d1)
+lista_1 = list (d1.values()) #Solo los valores estoy considerando en la lista
 print("Convirtiendo el diccionario a lista: {}.".format(lista_1))
 
 #Agregando dni
@@ -25,7 +26,7 @@ del d1["edad"]
 print("El diccionario actualizado es {}.".format(d1))
 
 #convirtiendo el diccionario en lista
-lista_2 = list (d1)
+lista_2 = list (d1.values()) #Solo los valores estoy considerando en la lista
 print("La lista actualizada es {}.".format(lista_2))
 
 #Mostrando el tipo de datos de la lista
